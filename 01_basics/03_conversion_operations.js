@@ -40,3 +40,55 @@ console.log(stringNum);
 console.log(typeof stringNum);
 
 
+//******************* OPERATIONS ********************
+
+let val = 3
+let negValue = -value       
+//console.log(negValue);     //gives -3 as o/p
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**3);       // 2 raise to power 3
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " shalu"
+
+let str3 = str1+str2
+console.log(str3);     //o/p: hello shalu
+
+//problem arises when we give 
+console.log("1" + 2);      //o/p:12
+console.log(1 + "2");      //o/p:12
+console.log("1" + 2+2 );    //o/p: 122
+console.log(1+2 + "2");     //o/p : 32
+//he above conversions happens whr id string is in 1st the the values after tht is also treated in string ,and is string val is at last then the previous conversions with operators happens  
+
+console.log((3+4) *5%3);     
+// above format of writing is not entertained so avoid writing in such a way
+
+//for above guidelines clarifictaion refer to ecmascript documentation 7.1.1 ToPrimitive and below
+
+console.log(true);     //o/p :true
+console.log(+true);     //o/p :1 
+//console.log(true+);     //o/p :error
+console.log(+"");     //o/p :0
+
+let val1,val2,val3
+
+val1=val2=val3=2+2    //these things may be avoided  and maintain code readability 
+
+let gameCounter=100
+gameCounter++;           //101 postfix  //check abt it in mdn docs
+++gameCounter;           //101 prefix
+console.log(gameCounter);   
+
+
+
+//link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+
