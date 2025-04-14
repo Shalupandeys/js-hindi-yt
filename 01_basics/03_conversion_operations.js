@@ -24,6 +24,7 @@ console.log(valInNum);            //here in js it converts and displays the type
 
 
 //conversion to Boolean
+
 let isLoggedIn = 1         //o/p =>true
 //let isLoggedIn = ""      //o/p => false
 //let isLoggedIn = "shalu"      //o/p => true
